@@ -283,10 +283,10 @@ set.seed(0)
 N = 2000
 
 # generate RGCP for N random samples for each data subset
-#RGCP_LHM <- RGCPmatrices(leastHM, N)
-#RGCP_MiHM <- RGCPmatrices(midHM, N)
-#RGCP_MoHM <- RGCPmatrices(mostHM, N)
-#RGCP_LH <- RGCPmatrices(leastH, N)
+RGCP_LHM <- RGCPmatrices(leastHM, N)
+RGCP_MiHM <- RGCPmatrices(midHM, N)
+RGCP_MoHM <- RGCPmatrices(mostHM, N)
+RGCP_LH <- RGCPmatrices(leastH, N)
 
 # generate summary tables for mutually exclusive relationships
 stLHM <- sigmaPaired(leastHM, RGCP_LHM)
